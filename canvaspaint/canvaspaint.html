@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>GopherJS Rocks!</title>
+    <link rel="stylesheet" href="http://ajax.aspnetcdn.com/ajax/bootstrap/2.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://ajax.aspnetcdn.com/ajax/bootstrap/2.3.1/css/bootstrap-responsive.min.css">
+    <link rel="stylesheet" href="canvaspaint.css">
+	<style type="text/css">
+	canvas {
+	    background-color: #cccccb;
+	}
+	html  {
+	 	 -moz-user-select: none;
+	  	-khtml-user-select: none;
+	  	-webkit-user-select: none;
+		user-select: none;
+	}    
+	</style>
+</head>
+<body>
+    <div class="container">
+        <div class="page-header">
+            <h1>GopherJS Canvas Paint Example</h1>
+			<p>inspired by <a href="https://github.com/Reactive-Extensions/rxjs-jquery/tree/master/examples">RxJS jQuery examples</a></p>
+            <p class="lead">Example shows how to implemement FRP concepts with Golang Channels</p>
+        </div>
+        <div class="row-fluid">    
+            <canvas id="tutorial" width="640" height="480"></canvas>
+        </div>
+    </div>
+	<script src="jquery.js"></script>        
+    <script src="canvaspaint.js"></script>    
+</body>   
+</html>

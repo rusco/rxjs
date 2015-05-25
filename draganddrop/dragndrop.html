@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>GopherJS Rocks!</title>
+	<link rel="stylesheet" href="http://ajax.aspnetcdn.com/ajax/bootstrap/2.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://ajax.aspnetcdn.com/ajax/bootstrap/2.3.1/css/bootstrap-responsive.min.css">
+    <style type="text/css">
+	html  {
+	  -moz-user-select: none;
+	  -khtml-user-select: none;
+	  -webkit-user-select: none;
+	  user-select: none;
+	}   
+	#dragTarget {
+	    background-image: url(logo.png);
+	    background-repeat: no-repeat;
+	    background-position: center;
+	    background-size: contain;
+	    height: 200px;
+	    width: 200px;
+	    background-color: #000000; 
+	    border: 1px solid #666666;
+	    color: #ffffff; 
+	    padding: 10px; 
+	    position: absolute;
+	    cursor: move;
+	}
+	</style>
+</head>
+<body>
+    <div id="dragTarget">Drag Me!</div>
+    <div class="container">
+        <div class="page-header">
+            <h1>GopherJS Drag and Drop Example </h1>
+			<p>inspired by <a href="https://github.com/Reactive-Extensions/rxjs-jquery/tree/master/examples">RxJS jQuery examples</a></p>
+            <p class="lead">Example shows how to implemement FRP concepts with Golang Channels instead</p>
+        </div>
+    </div>      
+    <script src="jquery.js"></script>
+    <script src="dragdrop.js"></script>  
+</body>
+</html>
